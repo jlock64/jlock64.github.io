@@ -1,0 +1,70 @@
+.hero-container {
+  background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("../images/surfBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 850px;
+  // border-bottom: 1px solid #777;
+  // box-shadow: 0px 1px 5px #333;
+  div.clearfix {
+    clear: both;
+  }
+  h1 {
+    padding-top: 350px;
+    color: #1FB3F7;
+    font-size: 70px;
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 15px #333;
+  }
+  span {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 5px;
+    text-shadow: none;
+  }
+  h3 {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(250,250,250, 1);
+  z-index: 10000000;
+  nav {
+    display: inline-block;
+    margin-right: 50px;
+    float: right;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  nav ul li {
+    display: inline-block;
+    padding: 39px;
+  }
+  nav ul li a {
+    color: #777;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  nav ul li a:hover {
+    text-decoration: none;
+    color: #777;
+    border-bottom: 2px solid #777;
+  }
+}
