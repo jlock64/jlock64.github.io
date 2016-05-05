@@ -33,6 +33,9 @@ div.header-text {
 
 section.portfolio-section {
   // margin-top: 100px;
+  .col-sm-5 {
+    padding-left: 40px;
+  }
   img {
     width: 100%;
   }
@@ -40,30 +43,31 @@ section.portfolio-section {
     margin-top: 150px;
   }
   h1.portfolio-name {
-    text-align: center;
-    font-weight: 600;
+    text-align: left;
+    font-weight: 800;
     color: #777;
     font-size: 42px;
+    text-transform: uppercase;
   }
   p {
-    font-size: 18px;
+    font-size: 22px;
     color: #777;
-    line-height: 30px;
+    line-height: 42px;
     margin-top: 10px;
+    margin-bottom: 15px;
     padding: 10px;
   }
-  .tech-stack {
-    margin-top: 10px;
-    background-color: #eee;
-    padding: 10px;
-    color: #777;
-    font-size: 18px;
-  }
+  // .tech-stack {
+  //   margin-top: 10px;
+  //   background-color: #eee;
+  //   padding: 10px;
+  //   color: #777;
+  //   font-size: 18px;
+  // }
   button {
     margin-top: 10px;
-    width: 100%;
-    height: 50px;
-    // border-radius: 5px;
+    width: 65%;
+    height: 70px;
     border: none;
     background-color: #777;
     color: #fff;
