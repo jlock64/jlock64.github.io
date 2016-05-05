@@ -36,10 +36,11 @@ div.about-me {
   div.about-me .about-me-text {
     text-align: left; }
   div.about-me .profile-pic {
-    text-align: center; }
+    text-align: center;
+    padding: 0; }
   div.about-me img {
-    width: 175px;
-    height: 250px;
+    width: 250px;
+    height: 375px;
     border: 3px solid #777; }
   div.about-me h3 {
     font-weight: 600;
