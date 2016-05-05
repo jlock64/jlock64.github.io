@@ -1,21 +1,46 @@
 @media (min-width: 0px ) and (max-width: 768px) {
 
-  // NAME IN HERO
-  .hero-container {
-    background-attachment: scroll;
-    span {
-      display: block;
-    }
+// NAME IN HERO
+.hero-container {
+  background-attachment: scroll;
+  height: 650px;
+  span {
+    display: block;
   }
+  h1 {
+    padding-top: 200px;
+  }
+}
+
+// ABOUT ME SECTION
+div.header-text {
+  margin-top: 50px;
+  div.header-shadow-text {
+    font-size: 66px;
+  }
+}
+
+div.about-me {
+    margin-top: 50px;
+}
+section.about-me-section {
+    padding-bottom: 50px;
+}
+
+// PORTFOLIO SECTION
+section.portfolio-section .portfolio-wrapper {
+  margin-top: 50px;
+}
 
 
-  // NAVBAR
-  header nav ul li {
+
+// NAVBAR
+header nav ul li {
     display: inline-block;
     padding: 14px;
 }
 header nav ul li A {
-  font-size: 13px;
+    font-size: 13px;
 }
 
 }

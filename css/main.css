@@ -194,9 +194,22 @@ footer {
 
 @media (min-width: 0px) and (max-width: 768px) {
   .hero-container {
-    background-attachment: scroll; }
+    background-attachment: scroll;
+    height: 650px; }
     .hero-container span {
       display: block; }
+    .hero-container h1 {
+      padding-top: 200px; }
+  div.header-text {
+    margin-top: 50px; }
+    div.header-text div.header-shadow-text {
+      font-size: 66px; }
+  div.about-me {
+    margin-top: 50px; }
+  section.about-me-section {
+    padding-bottom: 50px; }
+  section.portfolio-section .portfolio-wrapper {
+    margin-top: 50px; }
   header nav ul li {
     display: inline-block;
     padding: 14px; }
