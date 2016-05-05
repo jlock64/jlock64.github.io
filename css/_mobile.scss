@@ -1,0 +1,17 @@
+@media (min-width: 0px ) and (max-width: 768px) {
+
+  // NAME IN HERO
+  .hero-container span {
+    display: block;
+  }
+
+  // NAVBAR
+  header nav ul li {
+    display: inline-block;
+    padding: 15px;
+}
+header nav ul li A {
+  font-size: 13px;
+}
+
+}

@@ -20,7 +20,6 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 5px;
-    text-shadow: 2px 2px 15px #333;
   }
   span {
     font-weight: 300;
@@ -40,19 +39,19 @@
 
 header {
   position: fixed;
-  width: 100%;
+  // width: 100%;
   height: 100px;
-  background-color: rgba(250,250,250, 1);
+  // background-color: rgba(250,250,250, 1);
   z-index: 10000000;
   nav {
     display: inline-block;
-    margin-right: 50px;
     float: right;
   }
   nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    text-align: right;
   }
   nav ul li {
     display: inline-block;
@@ -64,8 +63,10 @@ header {
     text-transform: uppercase;
     text-decoration: none;
   }
-  a:active, a:visited {
+  a:active, a:visited, a:focus {
     text-decoration: none;
+    color: #777;
+    border-bottom: 2px solid #777;
   }
   nav ul li a:hover {
     text-decoration: none;
