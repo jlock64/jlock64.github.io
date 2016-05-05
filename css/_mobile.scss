@@ -1,9 +1,13 @@
 @media (min-width: 0px ) and (max-width: 768px) {
 
   // NAME IN HERO
-  .hero-container span {
-    display: block;
+  .hero-container {
+    background-attachment: scroll;
+    span {
+      display: block;
+    }
   }
+
 
   // NAVBAR
   header nav ul li {
