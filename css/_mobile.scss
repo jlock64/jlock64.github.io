@@ -26,10 +26,19 @@ div.about-me {
 section.about-me-section {
     padding-bottom: 50px;
 }
+#profile-pic-padding {
+  margin-top: 15px;
+}
 
 // PORTFOLIO SECTION
 section.portfolio-section .portfolio-wrapper {
   margin-top: 50px;
+}
+section.portfolio-section hr {
+  display: block;
+  margin-top: 50px;
+  opacity: 1;
+  border-top: 1px solid #eee;
 }
 
 
