@@ -185,7 +185,8 @@ section.portfolio-section button {
   background-color: #777;
   color: #fff;
   text-transform: uppercase;
-  font-size: 22px; }
+  font-size: 22px;
+  vertical-align: top; }
 
 section.portfolio-section button:hover {
   background-color: #fff;
