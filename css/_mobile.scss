@@ -1,5 +1,18 @@
 @media (min-width: 0px ) and (max-width: 768px) {
 
+// HEADER SECTION
+.navbar-brand {
+  display: none;
+}
+
+header nav ul {
+  padding-right: 0;
+  text-align: center;
+}
+.navbar li {
+  padding: 11px;
+}
+
 // NAME IN HERO
 .hero-container {
   background-attachment: scroll;

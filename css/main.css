@@ -55,6 +55,10 @@ div.about-me {
 * {
   font-family: 'Open Sans', sans-serif; }
 
+a:active, a img:active, .navbar-brand:focus {
+  outline: none;
+  text-decoration: none; }
+
 body {
   height: 3000px; }
 
@@ -101,7 +105,13 @@ header {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    text-align: right; }
+    text-align: right;
+    padding-right: 15px; }
+  header .navbar-default .navbar-brand {
+    margin-left: 15px; }
+  header nav ul img {
+    width: 50px;
+    margin-top: 12px; }
   header nav ul li {
     display: inline-block;
     padding: 39px; }
@@ -188,6 +198,22 @@ section.portfolio-section button {
   font-size: 22px;
   vertical-align: top; }
 
+section.portfolio-section button.live-button {
+  margin-top: 10px;
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+  border: 2px solid #777;
+  color: #777;
+  text-transform: uppercase;
+  font-size: 22px;
+  vertical-align: top; }
+
+section.portfolio-section button.live-button:hover {
+  border: none;
+  background-color: #777;
+  color: #fff; }
+
 section.portfolio-section button:hover {
   background-color: #fff;
   border: 2px solid #777;
@@ -209,6 +235,13 @@ footer {
   background-color: #777; }
 
 @media (min-width: 0px) and (max-width: 768px) {
+  .navbar-brand {
+    display: none; }
+  header nav ul {
+    padding-right: 0;
+    text-align: center; }
+  .navbar li {
+    padding: 11px; }
   .hero-container {
     background-attachment: scroll;
     height: 650px; }
@@ -245,7 +278,26 @@ footer {
   div.about-me .profile-pic {
     width: 100%; }
   div.about-me .about-me-text {
-    width: 100%; } }
+    width: 100%; }
+  .about-me-section {
+    padding-bottom: 50px; }
+  div.header-text {
+    margin-top: 150px; }
+  section.portfolio-section h1.portfolio-name {
+    margin-top: 5px;
+    font-size: 32px; }
+  section.portfolio-section button, section.portfolio-section button.live-button {
+    height: 36px;
+    font-size: 16px; }
+  section.portfolio-section .tech-stack {
+    font-size: 16px; }
+  section.portfolio-section p {
+    font-size: 16px;
+    line-height: 22px; }
+  section.portfolio-section hr {
+    margin-top: 50px; }
+  section.portfolio-section .portfolio-wrapper {
+    margin-top: 50px; } }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   div.about-me .about-me-text {
@@ -254,3 +306,13 @@ footer {
     width: 100%; }
   div.about-me .about-me-text {
     width: 100%; } }
+
+.modal.fade.bs-example-modal-lg.in {
+  padding-right: 0px;
+  z-index: 10000000000; }
+  .modal.fade.bs-example-modal-lg.in .modal-content p {
+    padding-left: 10px; }
+
+.modal.in .modal-dialog {
+  width: 90%;
+  margin-top: 120px; }

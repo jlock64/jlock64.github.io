@@ -11,4 +11,43 @@
     width: 100%;
   }
 
+  .about-me-section {
+    padding-bottom: 50px;
+  }
+
+  div.header-text {
+    margin-top: 150px;
+  }
+
+
+// PORTFOLIO SECTION
+section.portfolio-section h1.portfolio-name {
+  margin-top: 5px;
+  font-size: 32px;
 }
+
+section.portfolio-section button, section.portfolio-section button.live-button {
+  height: 36px;
+  font-size: 16px;
+}
+
+section.portfolio-section .tech-stack {
+  font-size: 16px;
+}
+
+section.portfolio-section p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+section.portfolio-section hr {
+  margin-top: 50px;
+}
+
+section.portfolio-section .portfolio-wrapper {
+  margin-top: 50px;
+}
+
+
+
+} // END OF MEDIA QUERY

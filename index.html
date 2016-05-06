@@ -14,8 +14,9 @@
     <div id="home" class="hero-container container">
       <header>
           <nav class="navbar navbar-default navbar-fixed-top navbar-right" role="navigation">
-            <div class="container">
+            <div class="">
               <ul>
+                <a class="navbar-brand smoothScroll" href="#home"><img src="../images/logo.png" alt="" /></a>
                 <li><a href="#home" class="smoothScroll" >home</a></li>
                 <li><a href="#about" class="smoothScroll" >about me</a></li>
                 <li><a href="#myWork" class="smoothScroll" >my work</a></li>
@@ -72,8 +73,22 @@
 
       <!-- SURFSUP SECTION -->
       <div class="row portfolio-wrapper">
+
+        <!-- Large modal -->
+        <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button> -->
+
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <p>
+                A super cool social app for surfers and paddle boarders where you can create and organize surf and paddle board sessions with your friends.
+              </p>
+            </div>
+          </div>
+        </div>
+
         <div class="col-sm-7">
-          <a href="#"><img src="../images/surfsup-main.png" alt="" /></a>
+          <a href="" data-toggle="modal" data-target=".bs-example-modal-lg" ><img src="../images/surfsup-main.png" alt="" /></a>
         </div>
         <div class="col-sm-5">
           <h1 class="portfolio-name">SurfSUP</h1>
@@ -84,8 +99,9 @@
             HTML, CSS, Javascript, jQuery, Angular, Bootstrap, Moment, Underscore
           </div>
           <div class="button-wrapper">
-            <a href="#"><button type="button" name="button">Check it out</button></a>
+            <a href="surfsup.html"  ><button type="button" name="button">Check it out</button></a>
             <a href="https://github.com/jlock64/SurfSUP/tree/master/public" target="_blank" ><button type="button" name="button">View Code</button></a>
+            <a href="http://107.170.73.157/" target="_blank" ><button class="live-button" type="button" name="button">See it Live</button></a>
           </div>
         </div>
       </div>
@@ -99,13 +115,13 @@
         <div class="col-sm-5">
           <h1 class="portfolio-name">Must Reads</h1>
           <p>
-            Never lose touch with what's making headlines all across the globe with this exceptionally convenient app that taps into the New York Times API.
+            Never lose touch with what's going on in the world with this convenient, simply laid-out news application that taps into the New York Times API.
           </p>
           <div class="tech-stack">
             HTML, CSS, Javascript, jQuery, Moment, Underscore
           </div>
           <div class="button-wrapper">
-            <a href="#"><button type="button" name="button">Check it out</button></a>
+            <a href="http://jlock64.github.io/barbara-liskov"><button type="button" name="button">Check it out</button></a>
             <a href="https://github.com/jlock64/barbara-liskov"><button type="button" name="button">View Code</button></a>
           </div>
         </div>
@@ -126,7 +142,7 @@
             HTML, CSS, Javascript, jQuery, Underscore
           </div>
           <div class="button-wrapper">
-            <a href="#"><button type="button" name="button">Check it out</button></a>
+            <a href="http://jlock64.github.io/bettyCrockpot/public"><button type="button" name="button">Check it out</button></a>
             <a href="https://github.com/jlock64/bettyCrockpot/tree/master/public" target="_blank"><button type="button" name="button">View Code</button></a>
           </div>
         </div>
@@ -143,9 +159,9 @@
     <!-- END OF BOOTSTRAP CONTAINER -->
 
     <script src="node_modules/jQuery/tmp/jquery.js" charset="utf-8"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
     <script src="javascript/smoothscroll.js"></script>
-    <!-- <script src="node_modules/bootstrap/dist/js/bootstrap.js" charset="utf-8"></script> -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js" charset="utf-8"></script>
     <script src="app.js" charset="utf-8"></script>
   </body>
 </html>

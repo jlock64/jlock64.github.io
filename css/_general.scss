@@ -2,6 +2,11 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+a:active, a img:active, .navbar-brand:focus {
+  outline: none;
+  text-decoration: none;
+}
+
 body {
   height: 3000px;
 }

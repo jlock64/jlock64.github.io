@@ -52,6 +52,16 @@ header {
     padding: 0;
     list-style-type: none;
     text-align: right;
+    padding-right: 15px;
+  }
+  .navbar-default .navbar-brand {
+    margin-left: 15px;
+  }
+  nav ul img {
+    width: 50px;
+    // height: 50px;
+    margin-top: 12px;
+    // margin-left: 20px;
   }
   nav ul li {
     display: inline-block;
