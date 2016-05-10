@@ -307,6 +307,9 @@ footer {
   section.portfolio-section h1.portfolio-name {
     margin-top: 0; } }
 
+.modal {
+  background-color: rgba(255, 255, 255, 0.95); }
+
 .modal.fade.bs-example-modal-lg.in {
   padding-right: 0px;
   z-index: 10000000000; }
@@ -315,16 +318,25 @@ footer {
   width: 90%;
   margin-top: 120px; }
 
+.modal-content {
+  box-shadow: none;
+  border: none;
+  background: none; }
+
+.modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5; }
+
 .container.surfsupModal {
   width: 100%;
   padding: 20px 50px; }
-  .container.surfsupModal h3 {
+  .container.surfsupModal h4 {
     color: #777;
     font-weight: 700;
     text-transform: uppercase;
-    border-bottom: 2px solid #777;
     display: inline; }
   .container.surfsupModal hr {
     margin-top: 20px; }
   .container.surfsupModal p {
-    line-height: 36px; }
+    line-height: 22px;
+    font-size: 18px; }
