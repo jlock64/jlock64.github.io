@@ -55,6 +55,10 @@ div.about-me {
 * {
   font-family: 'Open Sans', sans-serif; }
 
+a:focus {
+  outline: none;
+  text-decoration: none; }
+
 body {
   height: 3000px; }
 
