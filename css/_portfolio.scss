@@ -2,8 +2,8 @@ div.header-text {
     position: relative;
     width: 100%;
     z-index: 2;
-    padding-bottom: 50px;
-    margin-top: 150px;
+    padding-bottom: 100px;
+    margin-top: 100px;
     div.header-shadow-text {
       position: absolute;
       top: 0;
@@ -40,7 +40,7 @@ section.portfolio-section {
     width: 100%;
   }
   .portfolio-wrapper {
-    margin-top: 150px;
+    margin-top: 100px;
   }
   h1.portfolio-name {
     text-align: left;
@@ -102,7 +102,7 @@ section.portfolio-section {
   hr {
     display: block;
     opacity: 1;
-    margin-top: 150px;
+    margin-top: 100px;
     border-top: 2px solid #eee;
   }
 }
