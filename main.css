@@ -177,7 +177,7 @@ section.portfolio-section h1.portfolio-name {
 section.portfolio-section p {
   font-size: 22px;
   color: #777;
-  line-height: 42px;
+  line-height: 30px;
   margin-top: 10px;
   margin-bottom: 15px; }
 
@@ -312,14 +312,15 @@ footer {
     margin-top: 0; } }
 
 .modal {
-  background-color: rgba(255, 255, 255, 0.98); }
+  background-color: rgba(255, 255, 255, 0.95); }
 
 .modal.fade.bs-example-modal-lg.in {
   padding-right: 0px;
   z-index: 10000000000; }
 
 .modal.in .modal-dialog {
-  margin-top: 50px; }
+  width: 75%;
+  margin-top: 100px; }
 
 .modal-content {
   box-shadow: none;
@@ -334,15 +335,13 @@ div.surfsupModal {
   width: 100%;
   padding: 20px 50px; }
   div.surfsupModal h4 {
-    color: #555;
+    color: #777;
     font-weight: 400;
+    text-transform: uppercase;
     display: inline; }
   div.surfsupModal hr {
-    margin-top: 40px;
-    margin-bottom: 40px; }
-  div.surfsupModal p {
-    margin-top: 2px;
-    line-height: 24px;
-    font-size: 16px;
-    color: #999;
-    font-weight: 100; }
+    margin-top: 20px; }
+
+div.surfsupModal p {
+  line-height: 22px;
+  font-size: 16px; }

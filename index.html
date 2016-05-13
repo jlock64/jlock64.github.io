@@ -62,7 +62,8 @@
     </section>
 
     <!-- PORTFOLIO SECTION -->
-    <section id="myWork" class="portfolio-section smoothScroll">
+    <div id="myWork"></div>
+    <section class="portfolio-section smoothScroll">
       <div class="row">
         <div class="header-text">
           <div class="col-sm-12 header-shadow-text">My Work</div>
@@ -74,41 +75,72 @@
       <!-- SURFSUP SECTION -->
       <div class="row portfolio-wrapper">
 
-        <!-- Large modal -->
-        <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button> -->
-
+        <!-- MODAL -->
         <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
           <div class="modal-dialog modal-lg">
             <div class="modal-content">
               <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <a type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
               </div>
               <div class="container surfsupModal">
+
+                <!-- WHAT IS SURFSUP -->
                 <div class="row">
-                  <div class="col-sm-6">
+                  <div class="col-sm-5">
                     <h4>What is SurfSUP?</h4>
                     <p>
-                      SurfSUP is a social app for surfers and paddle boarders. It allows users to create and coordinate surf or paddle sessions with their friends.
+                      SurfSUP is a responsive social web application for surfers and paddle boarders. It allows users to create and coordinate surf and paddle board sessions with their friends for anytime in the future.
+                      <!-- My developer team consisted of another front-end developer as well as a backend-developer using Java and Spring. -->
                     </p>
-                    <h4>Why SurfSUP?</h4>
+                    <h4>Problem/Solution</h4>
                     <p>
-                      Who likes group-texting? This app eliminates the need for constant and disorganized texting. I like to call it convenient planning.
+                      Who likes group-texting? SurfSUP eliminates the need for constant and disorganized group texting. It will help you become a better planner and bring you together with your friends more often doing what you love. Plus this will help you find new friends in the process!
                     </p>
                   </div>
-                  <div class="col-sm-6">
+                  <div class="col-sm-7">
                     <img src="../images/surfSUP/surfsup-main.png" alt="" />
                   </div>
                 </div>
                 <hr>
+
+                <!-- WEATHER SURF AND TIDAL DATA -->
                 <div class="row">
-                  <div class="col-sm-6">
-                    <h4>The Homepage</h4>
+                  <div class="col-sm-5">
+                    <h4>Weather, Surf & Tidal Data</h4>
                     <p>
-                      Once logged in, the homepage displays the latest weather, surf and tidal data for the next 24 hours for select beaches. This of course is very important when planning your surf or paddling sessions.
+                      Once logged in, the homepage displays the latest weather, surf and tidal data for the next 24 hours for select beaches. This of course is very important when planning your surf or paddling sessions. All weather and surf data is being dynamically created through the <em>Magic Seaweed API</em> and tidal data is brought in via the <em>World Tides API</em>.
                     </p>
                   </div>
-                  <div class="col-sm-6">
+                  <div class="col-sm-7">
                     <img src="../images/surfSUP/weather.png" alt="" />
+                  </div>
+                </div>
+                <hr>
+
+                <!-- ADDING SESSIONS -->
+                <div class="row">
+                  <div class="col-sm-5">
+                    <h4>Adding Sessions</h4>
+                    <p>
+                      The most important feature of our app, adding sessions, allows you to schedule as many outings as you want well in advance. Here you can toggle between a surf or paddle board session, choose on a google map exactly where you are planning on going, give a detailed description of your spot as well as the date and time you are planning on getting in the water. Once you hit submit, your session is added and you are immediately directed to the sessions page.
+                    </p>
+                  </div>
+                  <div class="col-sm-7">
+                    <img src="../images/surfSUP/addSession.png" alt="" />
+                  </div>
+                </div>
+                <hr>
+
+                <!-- SESSIONS PAGE -->
+                <div class="row">
+                  <div class="col-sm-5">
+                    <h4>Sessions Page</h4>
+                    <p>
+                      Here is where all your future planned sessions are stored in chronological order. You will also see all of your friends planned sessions along with who is going and the option to join that session. This is the beauty of our app right here. You may not know everyone going to a particular session but since your current friend
+                    </p>
+                  </div>
+                  <div class="col-sm-7">
+                    <img src="../images/surfSUP/sessions.png" alt="" />
                   </div>
                 </div>
                 <hr>
@@ -118,10 +150,11 @@
           </div>
         </div>
 
+        <!-- SURFSUP MAINPAGE -->
         <div class="col-sm-7">
-          <!-- <a href="" data-toggle="modal" data-target=".bs-example-modal-lg" > -->
+          <a href="" data-toggle="modal" data-target=".bs-example-modal-lg" >
             <img src="../images/surfSUP/mobile.png" alt="" />
-          <!-- </a> -->
+          </a>
         </div>
         <div class="col-sm-5">
           <h1 class="portfolio-name">SurfSUP</h1>
@@ -132,7 +165,7 @@
             HTML, CSS, Javascript, jQuery, Angular, Bootstrap, Moment, Underscore
           </div>
           <div class="button-wrapper">
-            <!-- <a href="http://107.170.73.157/"  ><button type="button" name="button">View Live</button></a> -->
+            <a href="http://107.170.73.157/"  ><button type="button" name="button">View Live</button></a>
             <a href="https://github.com/jlock64/SurfSUP/tree/master/public" target="_blank" ><button type="button" name="button">View Code</button></a>
             <!-- <a href="http://107.170.73.157/" target="_blank" ><button class="live-button" type="button" name="button">See it Live</button></a> -->
           </div>
