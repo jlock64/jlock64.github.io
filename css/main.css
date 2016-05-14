@@ -336,6 +336,7 @@ div.surfsupModal {
   div.surfsupModal h4 {
     color: #555;
     font-weight: 400;
+    background-color: #eee;
     display: inline; }
   div.surfsupModal hr {
     margin-top: 40px;
