@@ -54,7 +54,8 @@ div.about-me {
 
 .profile-pic ul {
   list-style-type: none;
-  padding: 0; }
+  padding: 0;
+  margin-top: 15px; }
   .profile-pic ul li {
     display: inline-block;
     padding: 10px; }
@@ -255,7 +256,7 @@ button.view-layout button {
   vertical-align: top; }
 
 footer {
-  margin-top: 150px;
+  margin-top: 50px;
   width: 100%;
   height: 300px;
   background-color: #777; }
