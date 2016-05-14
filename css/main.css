@@ -111,6 +111,9 @@ header {
   position: fixed;
   height: 100px;
   z-index: 10000000; }
+  header .navbar-default {
+    background-color: #fff;
+    border: none; }
   header nav {
     display: inline-block;
     float: right; }
