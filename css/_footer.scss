@@ -1,6 +1,29 @@
 footer {
   margin-top: 150px;
   width: 100%;
-  height: 400px;
+  height: 300px;
   background-color: #777;
+  .footer-nav {
+    width: 100%;
+    margin: 0 auto;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 110px;
+    text-align: center;
+  }
+  li {
+    display: inline-block;
+    padding: 10px;
+  }
+  .fa {
+    font-size: 42px;
+    color: #ddd;
+    // transition: .2s all ease-in-out;
+  }
+  .fa:hover {
+    color: #fff;
+    // transform: scale(.90);
+  }
 }
