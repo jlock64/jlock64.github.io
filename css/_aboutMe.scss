@@ -62,3 +62,19 @@ div.about-me {
     color: #777;
   }
 }
+
+.profile-pic ul {
+  list-style-type: none;
+  padding: 0;
+  li {
+    display: inline-block;
+    padding: 10px;
+  }
+  .fa {
+    color: $headline-gray;
+    font-size: 26px;
+  }
+  .fa:hover {
+    color: #999;
+  }
+}

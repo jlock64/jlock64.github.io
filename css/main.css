@@ -52,6 +52,18 @@ div.about-me {
     line-height: 29px;
     color: #777; }
 
+.profile-pic ul {
+  list-style-type: none;
+  padding: 0; }
+  .profile-pic ul li {
+    display: inline-block;
+    padding: 10px; }
+  .profile-pic ul .fa {
+    color: #777;
+    font-size: 26px; }
+  .profile-pic ul .fa:hover {
+    color: #999; }
+
 * {
   font-family: 'Open Sans', sans-serif; }
 
