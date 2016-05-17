@@ -375,6 +375,8 @@ footer {
 .modal-header {
   padding: 15px;
   border-bottom: 1px solid #e5e5e5; }
+  .modal-header i.fa.fa-times-circle {
+    font-size: 30px; }
 
 div.surfsupModal {
   width: 100%;
