@@ -187,7 +187,7 @@ section.portfolio-section h1.portfolio-name {
   text-align: left;
   font-weight: 800;
   color: #777;
-  font-size: 40px;
+  font-size: 38px;
   text-transform: uppercase; }
 
 section.portfolio-section p {
@@ -312,6 +312,8 @@ footer {
     margin-top: 50px;
     opacity: 1;
     border-top: 1px solid #eee; }
+  .container.surfsupModal {
+    padding: 0px; }
   header nav ul li {
     display: inline-block;
     padding: 14px; }
