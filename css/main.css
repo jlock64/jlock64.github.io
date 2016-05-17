@@ -391,3 +391,28 @@ div.surfsupModal {
     font-size: 16px;
     color: #999;
     font-weight: 100; }
+
+.modal {
+  background-color: rgba(255, 255, 255, 0.97); }
+
+.modal.fade.bs-modal-lg.in {
+  padding-right: 0px;
+  z-index: 10000000000; }
+
+.modal.in .modal-dialog {
+  margin-top: 50px; }
+
+.modal-content {
+  box-shadow: none;
+  border: none;
+  background: none; }
+
+.modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5; }
+
+div.surfsupModal {
+  width: 100%;
+  padding: 20px 50px; }
+  div.surfsupModal .weatherImages {
+    margin-bottom: 30px; }
